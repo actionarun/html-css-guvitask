@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 1024px;
+
+    background-color:white;
+    color: black;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-left: 100px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color:white;
+    overflow: auto;
+    flex-direction: row;
+    margin: 10px;
+    position: relative;
+    border: 5px;
+    padding: 5px;
+}
+
+
+.logo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  
+} 
+
+.logo h1{
+      font-family: "Volkhov", serif;
+     font-weight: 200;
+     font-style: Bolt;
+     font-size: 25px;
+     line-height: 24px;
+     letter-spacing: 0.6%;
+          }
+
+.navbar .nav-links ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: 250px;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 15px;
+}
+
+.navbar .nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: regular;
+    line-height: 24px;
+
+}
+
+.button{
+    color: rgba(250, 116, 54, 1);
+    height: 24px; 
+    width: 100PX;
+    background-color: white;
+    border: 0px;
+    padding: 5px;
+}
+
+.buttondark{
+    color: white;
+    height: 30px; 
+    width: 100PX;
+     background-color: rgba(250, 116, 54, 1);
+    border-radius: 5%;
+    border: 1px rgba(250, 116, 54, 1);
+    padding: 5px;
+}
+
+
+.hero{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}    
+
+ #heromale{
+    height: 300px;
+    width: 200px;
+}
+#herooff{
+    height: 150px;
+    width: 350px;
+
+}
+#heroarrow{
+    width: 200px;
+} 
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 3px;
+   
+}
+.left h1{
+    flex: 1;
+      font-family: "Volkhov", serif;
+     font-weight: 500;
+     font-style: Bolt;
+     font-size: 40px;
+     line-height: 20px;
+     position: absolute;
+     top: 60px;
+     left: 20px;
+     width: 400px;
+    line-height: 1;
+     
+
+     }
+
+.left p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 400px;
+   line-height: 2;
+
+}
+
+.buttonwhite{
+     font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: medium;
+    font-size: 12px;
+    height: 30px;
+    width: 100px;
+    color: rgba(250, 116, 54, 1) ;
+    background-color:white;
+    border: 2px;
+    border-color:  rgb(250, 116, 54, ) ;
+    border-radius: 5%;
+    position: absolute;
+    left: 20px;
+    top: 320px;
+}
+
+.right{
+   flex: 1;
+   padding: 3px;
+   z-index: auto;
+   position: relative;
+
+}
+
+#heroarrow{
+    height: auto;
+    width: 400px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+
+}
+
+#heromale{
+    height: 280px;
+    width: 350px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    width: 350px;
+  
+
+}
+#herooff{
+    height: 150px;
+    width: 350px;
+    position: absolute;
+    right: 10px;
+    top: 200px;
+    z-index: -1;
+}
+
+.trophy{
+   
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 80px;
+    right: 280px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 2px;
+    border-radius: 5%;
+   
+
+}
+.trophy img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 0px;
+
+}
+.trophy h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: medium;
+    font-size: 10px;
+    position: absolute;
+    left: 25px;
+}
+
+.star{
+      height: 30px;
+    width: 100px;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 2px;
+    background-color: white;
+    border-radius: 5%;
+    position: absolute;
+    top: 220px;
+    right: 250px;
+    z-index: 1;
+}
+.star img{
+     height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 0px;
+}
+
+.star p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 60px;
+    font-style: medium;
+    font-size: 6px;
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+
+.star h4{
+      position: absolute;
+    left: 25px;
+     font-family: "Poppins", sans-serif;
+    font-weight: 60px;
+    font-style: medium;
+    font-size: 10px;
+}
+
+.location{
+    height: 35px;
+    width: 100px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 2px;
+    background-color: white;
+    border-radius: 5%;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    z-index: 1;
+    padding: 3px;
+
+}
+.location img{
+     height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 2px;
+    top: 5px;
+}
+
+.location p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 60px;
+    font-style: medium;
+    font-size: 6px;
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+.location h4{
+      position: absolute;
+    left: 25px;
+     font-family: "Poppins", sans-serif;
+    font-weight: 60px;
+    font-style: medium;
+    font-size: 10px;
+}
+
+.heroevent{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    height: 40px;
+    width: 800px;
+    border: 2px;
+    border-radius: 3%;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.event{
+    padding: 3px;
+}
+
+.event h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 60px;
+    font-style: medium;
+    font-size: 10px;
+}
+
+.event img{
+    height: 8px;
+    width: 8px;
+
+}
+   
+.event p{
+      font-family: "Poppins", sans-serif;
+    font-weight: 50px;
+    font-style: regular;
+    font-size: 8px;
+
+}
+
+#location{
+    position: absolute;
+    top: 11px;
+    left: 110px;
+
+}
+
+#date{
+     position: absolute;
+    top: 11px;
+    left: 295px;
+}
+#guest{
+     position: absolute;
+    top: 11px;
+    left: 490px;
+}
+
+.heroevent button{
+    background-color:  rgba(250, 116, 54, 1);
+    border: 0px;
+    padding: 5px;
+}
