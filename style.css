@@ -450,6 +450,7 @@ body{
     margin-top: 100px;
     margin-bottom: 50px;
     padding: 10px;
+        position: relative;
 
 }
 .deals h3{
@@ -565,15 +566,13 @@ body{
     color: rgba(250, 116, 54, 1);
 }
 
-.index{
-    position: relative;
-}
 
 .dealsbodys button{
     position: absolute;
     z-index: 1;
-    top: 1200px;
-    left: 400px;
+  
+    top: 290px;
+    left: 320px;
 }
 
 .arrows{
@@ -594,12 +593,354 @@ body{
 }
 
 .darkarrow{
-    margin: 10px;
+
      height: 15px;
     width: 15px;
     border: 2px;
     background-color: rgba(250, 116, 54, 1);
     border-radius: 50%;
     padding: 5px;
+    margin-left: 5px;
 }
+
+/* Best vacation plan start */
+
+.bv{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 5px;
+
+}
+.bvhero{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+.bvhero h3{
+      grid-column: span 3 / span 3;
+       display: flex;
+    justify-content: center;
+    margin-left: 65px;
+     font-family: "Volkhov", serif;
+     font-weight: 700;
+     font-style: Bolt;
+     font-size: 24px;
+     line-height: 24px;
+     letter-spacing: 1%; 
+     gap: 3px;
+     padding: 5px;
+}
+.bvhero h3 span{
+     font-family: "Volkhov", serif;
+     font-weight: 700;
+     font-style: Bolt;
+     font-size: 24px;
+     line-height: 24px;
+     letter-spacing: 1%; 
+     gap: 3px;
+   
+}
+.bvhero img{
+     grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    width: 100px;
+    justify-content: flex-start;
+}
+.bvhero p{
+   grid-column: span 3 / span 3;
+    grid-row-start: 2;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 2px;
+    width: 290px;
+    height: auto;
+    padding: 3px;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 10px;
+    font-style: regular;
+    font-size: 10px;
+}
+.bvarrow{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bvbody{
+   display: flex;
+justify-content: space-between;
+    
+}
+.bvcont{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 40px;
+}
+   
+.bvimg{
+    width: 300px;
+    height: auto;
+}
+.bvchild{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.bvchild h5{
+      font-family: "Poppins", sans-serif;
+    font-weight: 300px;
+    font-style: Medium;
+    font-size: 14px;
+}
+.bvchild p{
+      font-family: "Poppins", sans-serif;
+    font-weight: 300px;
+    font-style: SemiBold;
+    font-size: 14px;
+    color:rgba(250, 116, 54, 1); ;
+}
+.bv-child{
+     margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.bv-child div img{
+    display: inline;
+    width: 13px;
+    height: auto;
+}
+.bv-child div p{
+    display: inline;
+     font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-style: Regular;
+    font-size: 14px;
+}
+
+/* about us people */
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 100px;
+     position: relative;
+
+}
+.aboutleft{
+    padding: 5px;
+}
+.aboutleft h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    font-family: "Volkhov", serif;
+     font-weight: 650;
+     font-style: Bolt;
+     font-size: 24px;
+     line-height: 24px;
+     letter-spacing: 1%; 
+     gap: 3px;
+}
+
+.aboutleft h2 span{
+    font-family: "Volkhov", serif;
+     font-weight: 650;
+     font-style: Bolt;
+     font-size: 24px;
+     line-height: 24px;
+     letter-spacing: 1%; 
+      gap: 3px;
+      margin-top: 5px;
+}
+.aboutleft p{
+     padding: 5px;
+     margin: 5px;
+     font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-style: Regular;
+    font-size: 12px;
+}
+.aboutleft img{
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.aboutright{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.arbox{
+    padding: 10px;
+    box-shadow: rgba(100, 100, 11, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    width: 400px;
+    height: auto;
+   border: 15px;
+   flex-direction: column;
+}
+.arbox img{
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    width: 50px;
+
+}
+.arbox p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-style: Medium;
+    font-size: 12px;
+
+}
+.arbox h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-style: SemiBOLD;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.arbox h6{
+     font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-style: SemiBOLD;
+    font-size: 8px;
+}
+
+.ar-box{
+ padding: 10px;
+    box-shadow: rgba(100, 100, 11, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    width: 400px;
+    height: 150px;
+   border: 15px;
+   position: absolute;
+   top: 140px;
+   left: 430px;    
+}
+
+.ar-box h5{
+  font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-style: SemiBOLD;
+    font-size: 16px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    padding: 5px;
+    margin-left: 20px;
+}
+.ar-box h6{
+  font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-style: SemiBOLD;
+    font-size: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+   align-self: flex-end;
+   margin: 0px;
+}
+
+.arimg{
+    height: 150px;
+    width: auto;
+    padding: 5px;
+    margin: 0px;
+}
+
+.lbcont{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+}
+.lbcont h3{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+     font-family: "Volkhov", serif;
+     font-weight: 700;
+     font-style: Bolt;
+     font-size: 24px;
+     line-height: 24px;
+     letter-spacing: 1%; 
+     gap: 3px;
+}
+.lbcont h3 span{
+     justify-content: center;
+    padding: 5px;
+     font-family: "Volkhov", serif;
+     font-weight: 700;
+     font-style: Bolt;
+     font-size: 24px;
+     line-height: 24px;
+     letter-spacing: 1%; 
+     gap: 3px;
+}
+
+.lb{
+    display: flex;
+    justify-content: space-between;
+    border: 1px;
+    padding: 1px; 
+    margin-top: 30px;
+}
+.lbchild{
+    width: 200px;
+   height: auto;
+   padding: 3px;
+}
+.lbchild img{
+    width: 200px;
+    height: auto;
+    border-radius: 5%;
+}
+.lbchild h6{
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200px;
+    font-style: SemiBOLD;
+    font-size: 15px;
+}
+.lbchild p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 50px;
+    font-style: SemiBOLD;
+    font-size: 9px;
+    color: gray;
+    margin-top:5px ;
+    margin-bottom: 5px;
+
+}
+.lbdot{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 10px;
+
+}
+.lbdot img{
+    margin-left: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
 
